@@ -398,7 +398,7 @@ ul {
 }
 
 .landing .image img {
-    width: 550px;
+    width: 500px;
     position: relative;
     animation: up-and-down 4s linear infinite;
 }
@@ -425,7 +425,7 @@ ul {
 
 .landing .go-down {
     position: absolute;
-    bottom: 50px;
+    bottom: 90px;
     left: 50%;
     transform: translateX(-50%);
     color: var(--second-color);
@@ -599,7 +599,7 @@ ul {
     border-style: solid;
     bottom: 0;
     right: -2%;
-    border-width: 0 182px 150px 185px;
+    border-width: 0 185px 160px 178px;
     border-color: transparent transparent white transparent;
     transition: var(--main-transitions);
 }
@@ -1195,7 +1195,7 @@ ul {
 
 .events .title {
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     margin: 40px 0 0;
 }
 

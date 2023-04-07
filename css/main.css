@@ -577,6 +577,12 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
+    
+}
+@media (max-width: 767px) {
+    .features .container {
+        width: 375px;
+    }
 }
 
 .features .box .img-holder {

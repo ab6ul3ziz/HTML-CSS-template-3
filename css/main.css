@@ -599,9 +599,36 @@ ul {
     border-style: solid;
     bottom: 0;
     right: -2%;
-    border-width: 0 246px 160px 226px;
+    border-width: 0 185px 160px 178px;
     border-color: transparent transparent white transparent;
     transition: var(--main-transitions);
+}
+
+@media(max-width: 1199px) {
+    .features .box .img-holder::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        bottom: 0;
+        right: -2%;
+        border-width: 0 246px 210px 226px;
+        border-color: transparent transparent white transparent;
+        transition: var(--main-transitions);
+    }
+}
+
+@media(max-width: 991px) {
+    .features .box .img-holder::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        bottom: 0;
+        right: -2%;
+        border-width: 0 180px 180px 175px;
+        border-color: transparent transparent white transparent;
+        transition: var(--main-transitions);
+    }
+}
 
 .features .box:hover .img-holder::after {
     border-width: 0 190px 0 190px;
